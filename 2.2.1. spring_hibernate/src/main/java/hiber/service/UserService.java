@@ -7,7 +7,7 @@ import java.util.List;
 
 public interface UserService {
     void add(User user);
-    List<User> listUsers();
+    List<User> getAll();
 
-    List<User> listUsersOwnerCar(Car car);
+    List<User> getUsersByCar(Car car);
 }
